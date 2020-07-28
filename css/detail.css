@@ -1,0 +1,36 @@
+.del-nav { width: 100%;height: 151px;background: #60524b;}
+.banner { height: 616px;}
+.banner img{ width: 100%;}
+.slidenum ol .active { background: #655750;width: 8px;height: 8px;margin-left: 10px;}
+.slidenum ol li{ border: none;background: #fff;width: 8px;height: 8px;margin-left: 10px;}
+.delbuy { padding: 190px 0 0 180px;}
+.delbuy .text{ width: 160px;height:208px; color: #666;font-size: 14px;line-height: 18px;letter-spacing: 2px;margin-bottom: 68px;}
+.delbuy h3{ color: #333;font-size: 22px;line-height: 44px;}
+.delbuy .money{ color: #000;font-size: 24px;line-height: 32px;}
+.delbuy .span{ height: 100px;display: table-cell;vertical-align: middle;font-size: 16px;color: #333;font-weight: bolder;}
+.delbuy .span span{ margin-left: 15px;width: 14px;height: 14px;display: inline-block;}
+.delbuy .span span:nth-child(1){ background: #88807d;}
+.delbuy .span span:nth-child(2){ background: #bd5351;}
+.delbuy .span span:nth-child(3){ background: #638d9c;}
+.delbuy .span span:nth-child(4){ background: #a1b264;}
+.delbuy .span span:nth-child(5){ background: #feb135;}
+.buynow button{ width:86px;height: 28px;font-size: 16px;}
+.carousel-indicators { bottom: 50px;}
+#carousel-example-generic .item img { height: 667px;}
+/*产品详情*/
+.prodetail { width: 1005px;margin: auto;overflow: hidden;}
+.title { height: 100px;margin-top: 47px;line-height: 100px;font-size: 24px;color: #333;overflow: hidden;}
+.review { width: 100%;}
+.detail-photo { position: relative;}
+.reviewtop { position: absolute;right: 0;bottom: 0;}
+.prodetail h2 { font-size: 26px;color: #333;text-align: right;margin-top: 27px;line-height: 34px;}
+/*环境展示*/
+
+.enviro-photo { position: relative;top:0;left: 0;overflow: hidden;height:593px;border-bottom: 2px solid #eeeeee;}
+.enviro-text{ position: absolute;top:110px;left: 0;}
+.enviro-text .line{ display: block;height: 4px;background: #333;width: 60px;margin: 40px 0 60px 0;}
+.enviro-text p{ font-size:18px;color: #333;line-height: 34px;text-align: left;}
+.enviro-text span{ font-size:14px;color: #666;}
+.enviro-text .tit { width: 660px;padding:10px 60px 0 0;line-height: 22px;background: #fff;margin-top: 30px;}
+
+

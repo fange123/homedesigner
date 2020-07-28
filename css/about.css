@@ -1,0 +1,6 @@
+.aboutbg { background: url("../img/aboutbanner.png") no-repeat;padding: 321px 0 0 523px;height: 600px;background-size: cover;}
+.ourdesigner { width: 1000px;margin: 115px auto 0;border-bottom: 2px solid #eee;position: relative;}
+.ourdesigner img[alt=designerbg]{ margin-top: 50px;}
+.ourdesigner img[alt=designertext]{ position: absolute;top:540px;left: 410px;}
+.point { margin:120px auto 42px;}
+.point span{ margin-left: 67px;cursor: pointer;}

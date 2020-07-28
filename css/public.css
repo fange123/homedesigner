@@ -1,0 +1,53 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        padding: 0;
+    }
+}
+@media screen and (min-width: 768px) {
+    .carousel-caption {
+        right: 53%;
+        left: 10%;
+        padding-bottom: 280px;
+    }
+}
+@font-face {
+    font-family: heiti;
+    src:url("../fonts/simhei.ttf");
+}
+body { font-family: heiti;}
+.more button { letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
+.more { margin:55px auto 80px;text-align: center;}
+.container-fluid { padding: 0;}
+.nav { width: 1200px;height: 85px;position: absolute;z-index: 2;left: 50%;margin:44px 0 0 -600px;}
+.nav .logo,.nav .nav-top { display: inline-block;}
+.fr { float: right;}
+.fl { float: left;}
+button { border: none;outline: none;}
+.tit { text-align: center;margin-top: 60px;}
+.tit h2 { line-height: 56px;font-size: 26px;font-weight: bolder;letter-spacing: 3px;}
+.tit h2:after { content: "";border-bottom: 4px solid #000;display: block;width: 50px;margin: auto;}
+.tit p { font-size: 18px;line-height: 48px;color: #999;}
+/*导航条 */
+nav { display:none;width: 286px;height: 768px;background: #fff;position: absolute;top:0;right: 0;z-index: 99;padding: 45px 0 0 64px;}
+.nav-close { margin:0 0 94px 120px;cursor: pointer;}
+nav ul li { line-height: 74px;padding-left: 22px;letter-spacing: 2px;}
+nav .nav-pro { background: url("../img/nav-point.png") no-repeat left 31px;}
+nav .nav-prodown { background: url("../img/nav-downpoint.png") no-repeat left 31px;}
+nav .nav-first li{ font-size: 16px;font-weight: bolder;}
+nav .nav-second { display: none;}
+nav .nav-second li{ line-height: 42px;font-size: 14px;font-weight: 500;padding-left: 0;}
+nav .nav-second li a{ color:#999;}
+nav .nav-second .active1 a{ color: #000;}
+nav .nav-second .active1:after { content: "";border-bottom: 1px solid #000;display: block;width: 56px;}
+/*底部*/
+.footer { margin-top: 64px;}
+.footer { width: 1000px;padding-bottom: 74px;}
+.footer h2 { font-size: 18px;line-height: 48px;padding-left: 14px;font-weight: bolder;letter-spacing: 5px;}
+.footer h2 a{ color: #666;}
+.footer ul li { font-size: 13px;height: 32px;line-height: 32px;font-weight: bolder;}
+.footer ul li a{  color: #999;letter-spacing: 3px;}
+.footer .pd_0 { padding: 0;}
+.footer .submit button{ width: 121px;float: left;}
+.footer .submit { margin-top: 24px;}
+.input { width:314px;border: 2px solid #655750;padding: 12px 0 12px 14px;color:#655750;font-size: 18px;letter-spacing: 2px;font-weight: bolder;margin-top: 20px;}

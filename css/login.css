@@ -1,0 +1,16 @@
+.loginbg { background: url("../img/login-bg.png") no-repeat;background-size: cover;padding-top: 232px;}
+.loginBtn { margin-left: 372px;}
+.loginBtn:after { content: "";border-bottom: 4px solid #655750;width: 36px;display: block; margin:50px 0 0 314px;}
+.loginBtn button{ width: 120px;height: 48px;font-size: 16px;padding: 0;margin: 0;font-weight: bolder;letter-spacing: 2px;}
+.loginBtn button:nth-child(1){ background: #fff;color: #655750;}
+.loginBtn button:nth-child(2){ width: 120px;height: 48px;background: #655750;color: #fff;}
+.loginBtn h2{ font-size: 32px;color: #655750;display: inline-block;margin-left: 67px;}
+.loginBtn h2{ font-size: 32px;color: #655750;display: inline-block;margin-left: 67px;}
+.form { width: 405px;height: 211px;margin: 90px 0 0 687px;font-size: 20px;}
+.form input[type=text] { width:404px;height: 37px;border: 1px solid #655750;margin-bottom: 28px;}
+.form input[type=checkbox] { width:16px;height: 16px;border: 1px solid #655750;margin-right: 12px;}
+.form span { margin-top: 5px;}
+.form > div { height: 20px;line-height: 20px;font-size: 14px;}
+.form button { width: 100%;height: 40px;background: #655750;margin-top: 26px;color: #fff;font-size: 16px;}
+.container { padding-bottom: 152px;}
+

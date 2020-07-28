@@ -1,0 +1,92 @@
+{
+  "index": [
+    {"newpro": [
+      {"image": "img/newpro01.png","title": "多人客厅沙发","money": "￥999"},
+      {"image": "img/newpro02.png","title": "单人色彩沙发","money": "￥555"},
+      {"image": "img/newpro03.png","title": "欧式简约椅子","money": "￥128"},
+      {"image": "img/newpro04.png","title": "双人简约沙发","money": "￥250"},
+      {"image": "img/newpro04.png","title": "双人简约沙发","money": "￥1020"},
+      {"image": "img/newpro03.png","title": "欧式简约椅子","money": "￥320"},
+      {"image": "img/newpro02.png","title": "单人色彩沙发","money": "￥128"},
+      {"image": "img/newpro01.png","title": "多人客厅沙发","money": "￥455"},
+      {"image": "img/newpro04.png","title": "双人简约沙发","money": "￥1020"},
+      {"image": "img/newpro03.png","title": "欧式简约椅子","money": "￥320"},
+      {"image": "img/newpro02.png","title": "单人色彩沙发","money": "￥128"},
+      {"image": "img/newpro01.png","title": "多人客厅沙发","money": "￥455"}
+    ]},
+    {"companynews": [
+      {"time":"2020/7/24","tit": "Fange家具2020新品品鉴","contents": "Fange家具2020新品品鉴暨经销商财富峰会圆满成功，对Fange而言，既是新的机遇，也是新的挑战。"},
+      {"time":"2020/7/24","tit": "《Fange无界》35届深圳家具展","contents": "专注品质，从现代生活崇尚简约大气的角度出发，家具不仅仅是一件家具那么简单，更是一件艺术品的象征......"},
+      {"time":"2020/7/24","tit": "《简约新美式纯实木家具》","contents": "Fange北美世家家具是设计师受到美国本土多种族、多文化的相互影响，设计特征点上北美世家拥有纯正的美式风格延续性。"},
+      {"time":"2020/7/24","tit": "Fange靠品质绽放璀璨光芒","contents": "Fange家具告诉您百年传承赋予原木灵魂，每一件作品都是设计师灵魂与历练的结晶，彰显拥有者尊贵不凡的气质，代代相传。"},
+      {"time":"2020/7/24","tit": "绎海棠木家具的典范","contents": "棠木家具成为实木家具的新宠儿，更多的Fange家具促销活动，更精彩的Fange家具信息资讯。"},
+      {"time":"2020/7/24","tit": "向您诠释不干平庸的家具","contents": "Fange家具以纵观东西的全球视野与精益求精的务实态度，甄极萃选上等美材、遍历几十道严苛工艺。"},
+      {"time":"2020/7/24","tit": "Fange家具2020新品品鉴","contents": "Fange家具2020新品品鉴暨经销商财富峰会圆满成功，对Fange而言，既是新的机遇，也是新的挑战。"},
+      {"time":"2020/7/24","tit": "《Fange无界》35届深圳家具展","contents": "专注品质，从现代生活崇尚简约大气的角度出发，家具不仅仅是一件家具那么简单，更是一件艺术品的象征......"},
+      {"time":"2020/7/24","tit": "《简约新美式纯实木家具》","contents": "Fange北美世家家具是设计师受到美国本土多种族、多文化的相互影响，设计特征点上北美世家拥有纯正的美式风格延续性。"},
+      {"time":"2020/7/24","tit": "Fange靠品质绽放璀璨光芒","contents": "Fange家具告诉您百年传承赋予原木灵魂，每一件作品都是设计师灵魂与历练的结晶，彰显拥有者尊贵不凡的气质，代代相传。"},
+      {"time":"2020/7/24","tit": "绎海棠木家具的典范","contents": "棠木家具成为实木家具的新宠儿，更多的Fange家具促销活动，更精彩的Fange家具信息资讯。"},
+      {"time":"2020/7/24","tit": "向您诠释不干平庸的家具","contents": "Fange家具以纵观东西的全球视野与精益求精的务实态度，甄极萃选上等美材、遍历几十道严苛工艺。"}
+    ]}
+  ],
+  "detail": [
+    {"banner01": [
+      {"buy":
+        {"title": "多人客厅沙发","money": "￥999.0","contents": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+      },
+      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
+      {"environment": [
+        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+      ]}
+    ]},
+    {"banner02": [
+        {"buy":
+          {"title": "多人沙发","money": "￥666.0","contents": "用心做艺术，为每一位用户打造极致舒适的家园,做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+        },
+        {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
+        {"environment": [
+          {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+        ]}
+      ]},
+    {"banner03": [
+      {
+        "buy": {
+          "title": "懒人沙发", "money": "￥1230.5", "contents": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"
+        }
+      },
+      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
+      {"environment": [
+        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+      ]}
+    ]},
+    {"banner04": [
+      {
+        "buy": {
+          "title": "家居沙发", "money": "￥589.0", "contents": "用心做艺术，为每一位用户打造极致舒适的家园,做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"
+        }
+      },
+      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
+      {"environment": [
+        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+      ]}
+    ]},
+    {"banner05": [
+      {
+        "buy": {
+          "title": "布艺沙发", "money": "￥1300.0", "contents": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"
+        }
+      },
+      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
+      {"environment": [
+        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+      ]}
+    ]}
+  ],
+  "product": [],
+  "about": [],
+  "contact": [],
+  "login": [
+    {"username":"fange","password": "123456"},
+    {"username":"bjyx","password": "123456"}
+  ]
+}

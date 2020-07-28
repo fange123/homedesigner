@@ -1,0 +1,18 @@
+/*我们是谁*/
+.container-fluid{ background: #eee;}
+.who { position: relative;}
+.who > img[alt=who] { margin-top: 130px;}
+.who > img[alt=top] { margin-top: 130px;position: absolute;top:-45px;right: 0;}
+.who .photo { width: 408px;height: 129px;position: absolute;z-index: 999;top:477px;right: 78px;display: flex;justify-content: space-around;}
+.who .photo h2 { color:#333;font-size: 13px;line-height: 14px;text-align: center;margin-top: 20px;font-weight: bolder;}
+.who .photo img { cursor: pointer;}
+/*联系我们*/
+.contactbg { background: url("../img/contactbg.png") no-repeat top left;position: relative;padding-top: 124px;}
+.contactbg img{ position: absolute;top:124px;left: 183px;}
+.address { width: 587px;margin: 0 0 58px 690px;overflow: hidden;padding-bottom: 190px;}
+.contactbg .address p{ line-height: 57px;color: #333;font-size: 24px;}
+.address span{ color: #666;font-size: 20px;}
+.address .leaveword p { line-height: 50px;color: #333;font-size: 16px;}
+.address textarea{ width: 404px;height: 66px;border: 2px solid #655750;resize: none; margin-bottom: 48px;display: block;}
+.address button{ width: 90px;height: 36px;background: #655750;color: #fff;font-size: 14px;}
+.content {  border-bottom: 2px solid #eee;}

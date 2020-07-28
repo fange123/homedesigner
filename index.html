@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+    <link rel="shortcut icon" href="img/heart01.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="nav">
+      <h1 class="logo fl"><a href="#"><img src="img/logo01.png" alt=""></a></h1>
+      <div class="nav-top fr"><a href="#"><img src="img/nav-top01.png" alt=""></a></div>
+    </div>
+    <!--banner-->
+    <div class="container-fluid">
+     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+         <!-- Wrapper for slides -->
+         <div class="carousel-inner" role="listbox" id="indexbanner">
+         <div class="item active">
+             <img src="img/banner03.png" alt="banner01">
+             <div class="detail03" onclick="delBtn(1)"><button></button></div>
+         </div>
+         <div class="item">
+                 <img src="img/banner02.png" alt="banner02">
+                 <div class="carousel-caption">
+                    <div class="detail02" onclick="delBtn(2)"><button></button></div>
+                 </div>
+         </div>
+         <div class="item">
+            <img src="img/banner01.png" alt="banner01">
+            <div class="carousel-caption">
+                <img src="img/banner01-text.png" alt="banner01-text">
+                <div class="detail01" onclick="delBtn(3)"><button></button></div>
+            </div>
+         </div>
+          <div class="item">
+                 <img src="img/banner04.png" alt="banner02">
+              <div class="detail04" onclick="delBtn(4)"><button></button></div>
+           </div>
+          <div class="item">
+                 <img src="img/banner05.png" alt="banner02">
+              <div class="detail05" onclick="delBtn(5)"><button></button></div>
+          </div>
+         </div>
+         <!-- 轮播计时器-->
+         <div class="slidenum">
+             <ol class="carousel-indicators">
+                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                 <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                 <div class="slide_line"></div>
+                 <span class="fp one">01</span>
+                 <span class="lp five">05</span>
+             </ol>
+         </div>
+     </div>
+     <!--导航条-->
+        <nav id="navlist">
+            <div class="nav-close" id="nav-close"><img src="img/nav-close.png" alt=""></div>
+            <ul class="nav-first" id="nav-first">
+                <li><a href="#">首页</a></li>
+                <li class="nav-pro">
+                    <a href="product.html">产品</a>
+                    <ul class="nav-second" id="nav-second">
+                        <li class="active1"><a href="#">沙发</a></li>
+                        <li><a href="#">座椅</a></li>
+                        <li><a href="#">床榻</a></li>
+                        <li><a href="#">橱柜</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="contact.html">联系</a></li>
+                <li><a href="login.html">登录/注册</a></li>
+            </ul>
+        </nav>
+ </div>
+    <!--新品首发-->
+    <div class="container newproduct">
+    <div class="tit">
+        <h2>新品首发</h2>
+        <p>New Product Launch</p>
+    </div>
+        <div class="row"></div>
+        <div class="more"><button>更多</button></div>
+    </div>
+    <div class="container-fluid">
+      <div class="photo">
+          <img src="img/newphoto.png" alt="newphoto">
+          <div class="text-box">
+              <div class="title">
+                  <h3>书桌书架</h3>
+                  <p>专注品质，从现代生活崇尚简约大气的角度出发，家具不仅仅是一件家具那么简单，更是一件艺术品的象征......</p>
+              </div>
+
+          </div>
+      </div>
+  </div>
+    <!--公司新闻-->
+    <div class="container companynews">
+        <div class="tit">
+            <h2>公司新闻</h2>
+            <p>Company News</p>
+        </div>
+        <div class="comnews"></div>
+
+        <div class="more"><button>更多</button></div>
+    </div>
+    <!--底部-->
+    <div class="container footer">
+        <div class="row">
+            <div class="col-md-2">
+                <h2 class="pd_0"><a href="javascript:;">产品</a></h2>
+                <ul>
+                    <li><a href="#">沙发</a></li>
+                    <li><a href="#">床榻</a></li>
+                    <li><a href="#">桌子</a></li>
+                    <li><a href="#">橱柜</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h2><a href="#">关于</a></h2>
+                <ul>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">公司新闻</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h2><a href="#">帮助</a></h2>
+                <ul>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">联系我们</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-md-offset-2">
+                <input type="email" placeholder="请在这里留下您的邮箱" class="input">
+                <div class="more submit"><button>提交</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/index.js"></script>
+
+
+</html>

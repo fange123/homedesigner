@@ -1,0 +1,39 @@
+.pro_banner { background: url("../img/pro_banner01.png") no-repeat;height: 600px;background-size: cover;}
+.select { display:flex;justify-content:space-between;padding:45px 85px;width: 1000px;height: 160px;position: absolute;top:515px;left: 50%;margin-left: -500px;background: #fff;box-shadow: 0 0 12px #ccc;z-index: 33;}
+.sel { text-align: center;background: url("../img/pro-line.png") no-repeat 0 10px;flex: 0 0 138px;}
+.sel h3{ line-height: 34px;font-size: 14px;color: #333;}
+.linebg { background: url("../img/pro-line.png") no-repeat 0 10px,url("../img/pro-line.png") no-repeat right 10px;}
+.tit { margin-top:142px;}
+.recommend .tit p{ line-height: 56px}
+.row { margin:10px 0 0;}
+.com-text { padding: 60px 0 0;margin: 0;width: 345px;}
+.recommend { width: 836px;overflow: hidden;}
+.recommend h3{ font-size: 26px;color: #333;letter-spacing: 5px;line-height: 50px;}
+.recommend h6{ line-height: 28px;font-size: 16px;color: #666;}
+.recommend span{ width: 14px;height: 14px;display: inline-block;margin-right: 10px;}
+.recommend span:nth-child(1){ background: #d3cfcb;}
+.recommend span:nth-child(2){ background: #aaa5a5;}
+.recommend span:nth-child(3){ background: #424040;}
+.span { padding: 25px 0 38px;}
+.recommend p{ line-height: 18px;font-size: 13px;color: #999;}
+.money { margin-top: 24px;color: #655750;font-size: 16px;float: left;font-weight: bolder;}
+.buynow { text-align: left;}
+.photoslide { width: 490px;height: 365px;margin: 0;padding: 0;}
+.photoslide ol .active { background: #655750;width: 8px;height: 8px;margin: 0;}
+.photoslide ol li{ border: none;background: #ccc;width: 8px;height: 8px;margin: 0;}
+.recommend .moneyright { margin-top: 24px;color: #655750;font-size: 16px;float:right;font-weight: bolder;width: 100%;}
+.more1 button { letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
+.more1 { margin:14px auto 80px;text-align: center;}
+/*我们的产品*/
+.ourproduct { width: 1116px;margin: 0 auto 90px;border-bottom: 2px solid #eeeeee;padding: 0 60px;}
+.tit01 { margin:0 auto 60px;}
+.proline { display: flex;justify-content: space-between;margin:0 auto 80px;width: 896px;}
+.proline h3 { font-size: 13px;color: #999;line-height: 22px;margin-top:20px;font-weight: bolder;letter-spacing: 2px;}
+.proline span { font-size: 15px;color: #333;line-height: 22px;}
+.page { height: 90px;width: 454px;margin: auto;}
+.page span{ display: inline-block;}
+.page .pagelist { display: inline-block;width: 368px;margin:2px 18px;}
+.page .pagelist li{ float: left;margin-right: 22px;cursor: pointer;color: #666;font-size: 16px;}
+.page .pagelist .mr_0 { margin: 0;}
+.page .pagelist .dot { letter-spacing: 1px;cursor: none;}
+.page .pagelist .page-first { margin-left: 25px;}
