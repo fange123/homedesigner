@@ -1,7 +1,7 @@
 {
   "index": [
     {"newpro": [
-      {"image": "img/newpro01.png","title": "多人客厅沙发","money": "￥999"},
+      {"image": "img/newpro01.png","pic":"img/newpro11.png", "title": "多人客厅沙发","money": "￥999"},
       {"image": "img/newpro02.png","title": "单人色彩沙发","money": "￥555"},
       {"image": "img/newpro03.png","title": "欧式简约椅子","money": "￥128"},
       {"image": "img/newpro04.png","title": "双人简约沙发","money": "￥250"},

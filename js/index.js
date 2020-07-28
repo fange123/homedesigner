@@ -3,7 +3,6 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
     // 当前轮播索引
     var index = $(this).find(".item").index(obj.relatedTarget);
     if(index == 0){
-        alert(123)
         $(".nav h1 img").attr("src","img/logo01.png");
         $(".nav div img").attr("src","img/nav-top01.png");
         }else if(index == 1){
@@ -12,15 +11,8 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
     }else if(index == 2){
         $(".nav h1 img").attr("src","img/logo.png");
         $(".nav div img").attr("src","img/nav-top.png");
-    }else if(index == 3){
-        $(".nav h1 img").attr("src","img/logo.png");
-        $(".nav div img").attr("src","img/nav-top.png");
-         }else if(index == 4){
-        $(".nav h1 img").attr("src","img/logo.png");
-        $(".nav div img").attr("src","img/nav-top.png");
     }
 });
-
 
   /*查看详情*/
   /*获取到主页面的按钮的索引值*/
@@ -28,24 +20,31 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
      window.location.href = "detail.html?value="+ i;
   }
 
-
 /*新品首发*/
     /*先获取前三个，在页面中显示出来*/
 $.getJSON("home.json",{},function (data) {
     for (var i = 0; i < 4; i++) {
         var arr = data.index[0].newpro[i];
         var html = ``;
-        html += `<div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <div class="newtit">
-                        <img src="${arr.image}" alt="newpro1">
-                    </div>
-                    <div class="caption">
-                        <h3>${arr.title}</h3>
-                        <p>${arr.money}</p>
-                    </div>
-                </div>
-            </div>`;
+         html = `<div class="col-sm-6 col-md-3">
+                        <div class="product-grid thumbnail">
+	                        <div class="product-image newtit">
+	                            <a href="#" class="image ">
+	                                <img class="pic-1" src="${arr.image}">
+	                                <img class="pic-2" src="${arr.image}">
+	                            </a>
+	                            <span class="product-sale-label">Sale</span>
+	                            <div class="product-button-group">
+	                                <a href="#" class="add-to-wishlist">添加收藏</a>
+	                                <a href="#" class="quick-view">快速查看</a>
+	                            </div>
+	                        </div>
+	                        <div class="product-content caption">
+	                            <h3><a href="#">${arr.title}</a></h3>
+	                            <p>${arr.money}</p>
+	                        </div>
+	                    </div>
+                    </div>`;
         $(".newproduct .row").append(html);
     }
 },"json");
@@ -58,16 +57,24 @@ $(".newproduct .more button").click(function () {
             var arr = data.index[0].newpro[i];
             var html = ``;
             html += `<div class="col-sm-6 col-md-3">
-                <div class="thumbnail">
-                    <div class="newtit">
-                        <img src="${arr.image}" alt="newpro1">
-                    </div>
-                    <div class="caption">
-                        <h3>${arr.title}</h3>
-                        <p>${arr.money}</p>
-                    </div>
-                </div>
-            </div>`;
+                        <div class="product-grid thumbnail">
+	                        <div class="product-image newtit">
+	                            <a href="#" class="image ">
+	                                <img class="pic-1" src="${arr.image}">
+	                                <img class="pic-2" src="${arr.image}">
+	                            </a>
+	                            <span class="product-sale-label">Sale</span>
+	                            <div class="product-button-group">
+	                                <a href="#" class="add-to-wishlist">添加收藏</a>
+	                                <a href="#" class="quick-view">快速查看</a>
+	                            </div>
+	                        </div>
+	                        <div class="product-content caption">
+	                            <h3>${arr.title}</h3>
+	                            <p>${arr.money}</p>
+	                        </div>
+	                    </div>
+                    </div>`;
             $(".newproduct .row").append(html);
         }
         flag += 4;
@@ -105,5 +112,41 @@ $(".companynews .more button").click(function () {
         flag01 += 3;
     },"json");
 });
+/*标题的动画*/
+$(window).scroll(function () {
+    var scrollTop = parseInt($(window).scrollTop());
+    console.log("scrollTop" + scrollTop);
+    var offsetTop = parseInt($(".newproduct").offset().top);
+    var num = offsetTop - scrollTop;
+    if(num <= 468){
+        $(".newproduct .tit").addClass("tit-slide-after");
+    }else {
+        $(".newproduct .tit").removeClass("tit-slide-after");
+    }
+    /*
+    *  页面元素距离浏览器工作区顶端的距离 = 元素距离文档顶端偏移值 - 网页被卷起来的高度即：
+       页面元素距离浏览器工作区顶端的距离 = DOM元素对象.offsetTop - document.documentElement.scrollTop */
+    var offsetTop1 = parseInt($(".photo").offset().top);
+    console.log("offsetTop1" + offsetTop1);
+    var num1 = offsetTop1 - scrollTop;
+    console.log(num1);
+    if(num1 <= 531){
+        $(".leftpic").addClass("leftpic-slider");
+
+    }else {
+        $(".leftpic").removeClass("leftpic-slider");
+    }
+    if(num1 <= 350){
+        $(".text-box").fadeIn(1500);
+        $(".text-box h3 span:first-child").animate({
+
+        })
+    }else {
+        $(".text-box").fadeOut(1000);
+    }
+
+});
+
+
 
 
