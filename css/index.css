@@ -42,6 +42,7 @@
 .title { border-left: 2px solid #ccc;padding:0 180px 0 24px;}
 .product-image .pic-2 { left: 100%;margin-left: auto;margin-right: auto;}
 .leftpic { width: 0;overflow: hidden}
+.border { position: absolute;}
 
 
 /*公司新闻*/

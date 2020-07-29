@@ -114,6 +114,7 @@ $(".companynews .more button").click(function () {
 });
 /*标题的动画*/
 $(window).scroll(function () {
+    /*新品首发*/
     var scrollTop = parseInt($(window).scrollTop());
     console.log("scrollTop" + scrollTop);
     var offsetTop = parseInt($(".newproduct").offset().top);
@@ -127,9 +128,9 @@ $(window).scroll(function () {
     *  页面元素距离浏览器工作区顶端的距离 = 元素距离文档顶端偏移值 - 网页被卷起来的高度即：
        页面元素距离浏览器工作区顶端的距离 = DOM元素对象.offsetTop - document.documentElement.scrollTop */
     var offsetTop1 = parseInt($(".photo").offset().top);
-    console.log("offsetTop1" + offsetTop1);
+
     var num1 = offsetTop1 - scrollTop;
-    console.log(num1);
+
     if(num1 <= 531){
         $(".leftpic").addClass("leftpic-slider");
 
@@ -144,6 +145,18 @@ $(window).scroll(function () {
     }else {
         $(".text-box").fadeOut(1000);
     }
+
+    /*公司新闻*/
+    var newtop = parseInt($(".companynews").offset().top);
+    console.log("newtop" + newtop);
+    var num2 = newtop - scrollTop;
+    console.log(num2);
+    if(num2 <= 572){
+        $(".companynews .tit").addClass("tit-slide-after");
+    }else {
+        $(".companynews .tit").removeClass("tit-slide-after");
+    }
+
 
 });
 

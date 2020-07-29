@@ -4,7 +4,6 @@ function getValue() {
     var value = localurl.substr(localurl.length - 1, localurl.length);
     return value;
 }
-
 /*轮播图*/
 $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
 
@@ -19,7 +18,7 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
             <span class="money">${banner01.buy.money}</span>
             <div class="span">颜色组成<span></span><span></span><span></span><span></span><span></span></div>
             <p class="text">${banner01.buy.contents}</p>
-            <div class="more buynow fl"><button>购买</button></div>`);
+            <div class="buynow fl"><button>购买</button></div>`);
         }else if(index == 1){
             var banner02 = data.detail[1].banner02[0];
             $(".delbuy").html(`
@@ -27,7 +26,7 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
             <span class="money">${banner02.buy.money}</span>
             <div class="span">颜色组成<span style="background-color: #949da6"></span><span style="background-color: #968a7f"></span><span style="background-color: #f3efec"></span></div>
             <p class="text">${banner02.buy.contents}</p>
-            <div class="more buynow fl"><button>购买</button></div>`);
+            <div class="buynow fl"><button>购买</button></div>`);
         }else if(index == 2){
             var banner03 = data.detail[2].banner03[0];
             $(".delbuy").html(`
@@ -35,7 +34,7 @@ $("#carousel-example-generic").on("slide.bs.carousel", function (obj) {
             <span class="money">${banner03.buy.money}</span>
             <div class="span">颜色组成<span style="background-color: #e2dcc6"></span><span style="background-color: #c9c7b8"></span><span style="background-color: #c8cac7"></span></div>
             <p class="text">${banner03.buy.contents}</p>
-            <div class="more buynow fl"><button>购买</button></div>`);
+            <div class="buynow fl"><button>购买</button></div>`);
         }
     },"json");
 });

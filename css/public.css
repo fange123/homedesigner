@@ -17,7 +17,10 @@
 }
 body { font-family: heiti;}
 .more button { letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
-.more { margin:55px auto 80px;text-align: center;}
+.more button:hover { background: #fff;color: #655750;}
+.more { margin:55px auto 80px;text-align: center;width: 146px;height: 35px;}
+.buttonBox { position: relative;}
+.buttonBox button{ transition:all .5s ease-in-out;}
 .container-fluid { padding: 0;}
 .nav { width: 1200px;height: 85px;position: absolute;z-index: 2;left: 50%;margin:44px 0 0 -600px;}
 .nav .logo,.nav .nav-top { display: inline-block;}
@@ -49,5 +52,5 @@ nav .nav-second .active1:after { content: "";border-bottom: 1px solid #000;displ
 .footer ul li a{  color: #999;letter-spacing: 3px;}
 .footer .pd_0 { padding: 0;}
 .footer .submit button{ width: 121px;float: left;}
-.footer .submit { margin-top: 24px;}
+.footer .submit { margin-top: 24px;margin-left:0;}
 .input { width:314px;border: 2px solid #655750;padding: 12px 0 12px 14px;color:#655750;font-size: 18px;letter-spacing: 2px;font-weight: bolder;margin-top: 20px;}

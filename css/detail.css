@@ -14,7 +14,7 @@
 .delbuy .span span:nth-child(3){ background: #638d9c;}
 .delbuy .span span:nth-child(4){ background: #a1b264;}
 .delbuy .span span:nth-child(5){ background: #feb135;}
-.buynow button{ width:86px;height: 28px;font-size: 16px;}
+.buynow button{ width:86px;height: 28px;font-size: 16px;letter-spacing:3px;background: #655750;color: #fff;font-weight: bolder;}
 .carousel-indicators { bottom: 50px;}
 #carousel-example-generic .item img { height: 667px;}
 /*产品详情*/

@@ -160,3 +160,55 @@
         /*color:blue;*/
     }
 }
+
+/*按钮*/
+.buttonBox>.border:nth-of-type(1){
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    border-top:2px solid #655750;
+}
+
+.buttonBox>.border:nth-of-type(2){
+    top:0;
+    right:0;
+    width:10px;
+    height:0;
+    border-right:2px solid #655750;
+}
+
+.buttonBox>.border:nth-of-type(3){
+    bottom:0;
+    right:0;
+    width:0;
+    height:0;
+    border-bottom:2px solid #655750;
+}
+
+.buttonBox>.border:nth-of-type(4){
+    bottom:0;
+    left:0;
+    width:0;
+    height:0;
+    border-left:2px solid #655750;
+}
+.buttonBox:hover .border:nth-of-type(1){
+    width:146px;
+    transition: width 1s;
+}
+
+.buttonBox:hover .border:nth-of-type(2){
+    height:35px;
+    transition: height 1s;
+}
+
+.buttonBox:hover .border:nth-of-type(3){
+    width:146px;
+    transition: width 1s;
+}
+
+.buttonBox:hover .border:nth-of-type(4){
+    height:35px;
+    transition: height 1s;
+}

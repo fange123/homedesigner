@@ -17,7 +17,8 @@
 .span { padding: 25px 0 38px;}
 .recommend p{ line-height: 18px;font-size: 13px;color: #999;}
 .money { margin-top: 24px;color: #655750;font-size: 16px;float: left;font-weight: bolder;}
-.buynow { text-align: left;}
+.buynow { width: 150px;margin-top: 60px;}
+.buynow button{ letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
 .photoslide { width: 490px;height: 365px;margin: 0;padding: 0;}
 .photoslide ol .active { background: #655750;width: 8px;height: 8px;margin: 0;}
 .photoslide ol li{ border: none;background: #ccc;width: 8px;height: 8px;margin: 0;}
