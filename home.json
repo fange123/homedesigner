@@ -1,7 +1,7 @@
 {
   "index": [
     {"newpro": [
-      {"image": "img/newpro01.png","pic":"img/newpro11.png", "title": "多人客厅沙发","money": "￥999"},
+      {"image": "img/newpro01.png","title": "多人客厅沙发","money": "￥999"},
       {"image": "img/newpro02.png","title": "单人色彩沙发","money": "￥555"},
       {"image": "img/newpro03.png","title": "欧式简约椅子","money": "￥128"},
       {"image": "img/newpro04.png","title": "双人简约沙发","money": "￥250"},
@@ -56,37 +56,25 @@
       },
       {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
       {"environment": [
-        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
-      ]}
-    ]},
-    {"banner04": [
-      {
-        "buy": {
-          "title": "家居沙发", "money": "￥589.0", "contents": "用心做艺术，为每一位用户打造极致舒适的家园,做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"
-        }
-      },
-      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
-      {"environment": [
-        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
-      ]}
-    ]},
-    {"banner05": [
-      {
-        "buy": {
-          "title": "布艺沙发", "money": "￥1300.0", "contents": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"
-        }
-      },
-      {"reviews": ["img/detail-review01.png","img/detail-review02.png"]},
-      {"environment": [
-        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "做一个有品质、有艺术的家居品牌是Fange的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
+        {"bg": "img/enviro01.png","img": "img/enviortext.png","classes": "家居沙发","time": "2019","designer": "Cindy设计师","brief": "珍惜品牌的荣誉，用心为他们设计、生产出最优质的的产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。"}
       ]}
     ]}
+
   ],
-  "product": [],
+  "product": [
+    {"recommend": []},
+    {"products": [
+      {"image": "img/pro01.png","name": "恋家沙发","money": "￥120"},
+      {"image": "img/pro02.png","name": "馨铺沙发","money": "￥288"},
+      {"image": "img/pro03.png","name": "美宜沙发","money": "￥145"},
+      {"image": "img/pro04.png","name": "雅康沙发","money": "￥255"},
+      {"image": "img/pro05.png","name": "暖屋沙发","money": "￥320"},
+      {"image": "img/pro06.png","name": "赫缇沙发","money": "￥320"},
+      {"image": "img/pro07.png","name": "华悦沙发","money": "￥450"},
+      {"image": "img/pro08.png","name": "润泽沙发","money": "￥200"}
+    ]}
+  ],
   "about": [],
   "contact": [],
-  "login": [
-    {"username":"fange","password": "123456"},
-    {"username":"bjyx","password": "123456"}
-  ]
+  "login": []
 }

@@ -1,6 +1,17 @@
-.aboutbg { background: url("../img/aboutbanner.png") no-repeat;padding: 321px 0 0 523px;height: 600px;background-size: cover;}
+.aboutbg { position: relative; background: url("../img/aboutbanner.png") no-repeat;padding:321px 0 0 523px;height: 600px;background-size: cover;}
 .ourdesigner { width: 1000px;margin: 115px auto 0;border-bottom: 2px solid #eee;position: relative;}
 .ourdesigner img[alt=designerbg]{ margin-top: 50px;}
 .ourdesigner img[alt=designertext]{ position: absolute;top:540px;left: 410px;}
 .point { margin:120px auto 42px;}
-.point span{ margin-left: 67px;cursor: pointer;}
+.point span{ margin-left: 67px;cursor: pointer;display: inline-block;width: 33px;height: 33px;}
+.leftbtn { background: url("../img/despoin-left.png") no-repeat;background-size: 100%;}
+.rightbtn { background: url("../img/despointright.png") no-repeat;background-size: 100%;}
+.abouttext { position: absolute;top:387px;left: 600px;}
+.abouttext p{ width: 477px;color: #999;font-size: 16px;line-height: 22px;display: none;}
+.abouttext h2{ color: #884536;font-size: 24px;line-height: 50px;font-weight: bolder;}
+.abouttext h3{ color: #444;font-size: 16px;line-height: 22px;margin-bottom: 40px;}
+.about-us { position: absolute;top:590px;left: 482px;text-align: left;}
+.about-us h2 { font-size: 22px;line-height: 62px;color: #884536;}
+.about-us p{ font-size: 14px;line-height: 20px;color: #000;width: 327px;margin-top: 57px;display: none;}
+.about-us h2:after { content: "";display: block;border-bottom: 4px solid #333; width: 44px;}
+/*.about_first { position: absolute;left:523px;top:321px;}*/

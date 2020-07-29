@@ -134,11 +134,19 @@
 @media screen and (max-width:990px){
     .product-grid{ margin: 0 0 30px; }
 }
+/*title的滑动*/
 .tit-slider {
     transform: translateX(-70%);
 }
 .tit-slide-after {
     transform: translateX(0);
+    transition: transform 2000ms;
+}
+.tit-slidertop {
+    transform: translateY(-900%);
+}
+.tit-slidetop-after {
+    transform: translateY(0);
     transition: transform 2000ms;
 }
 .leftpic-slider {
@@ -212,3 +220,106 @@
     height:35px;
     transition: height 1s;
 }
+/*首页banner的按钮*/
+.waveBtn {
+    animation: waveBtn 2s ease-out 0s infinite;
+}
+@keyframes waveBtn {
+    0% { transform: scale(1);opacity: 0;}
+    55% { transform: scale(1);opacity: 0.6;}
+    65% { transform: scale(1);opacity: 0.8;}
+    100% { transform: scale(1.2);opacity: 1;}
+}
+/*首页按钮发光*/
+.btnlight{
+    animation:btnlight 2s 0s infinite;
+}
+@keyframes btnlight {
+    from {
+        box-shadow: 0 0 10px blue;
+        font-size: 16px;
+    }
+    to {
+        box-shadow:none;
+    }
+}
+/*about页面内容标题*/
+.desc {
+    opacity: 0;
+    transition: 1s 1.5s;
+}
+
+.ex2 {
+    opacity: 0;
+}
+.ex2 span {
+    position: relative;
+    left: -10px;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+/*about图片鼠标滑过*/
+.about-slider {
+    animation: about-slider 1s 0s forwards;
+}
+.about-slider-alternate {
+    animation: about-slider-alternate1s 0s forwards;
+}
+@keyframes about-slider {
+    from {
+        position: relative;
+        top:0;
+        left:0;
+        width: 860px;
+    }
+    to {
+        position: relative;
+        top:-100px;
+        left: -280px;
+        width: 1000px;
+    }
+}
+@keyframes about-slider-alternate {
+    from {
+
+        position: relative;
+        top:-100px;
+        left: -280px;
+        width: 1000px;
+    }
+    to {
+        position: relative;
+        top:0;
+        left:0;
+        width: 860px;
+    }
+}
+.textslide {
+     animation: textslide 1s 0s forwards;
+}
+.textslide-alternate {
+    animation: textslide-alternate 1s 0s forwards;
+}
+@keyframes textslide {
+    from {
+        top:590px;
+        left: 482px;
+    }
+     to {
+         top:297px;
+         left: 350px;
+     }
+}
+@keyframes textslide-alternate {
+    from {
+        top:297px;
+        left: 350px;
+    }
+    to {
+
+        top:590px;
+        left: 482px;
+    }
+}
+

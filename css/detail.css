@@ -25,7 +25,6 @@
 .reviewtop { position: absolute;right: 0;bottom: 0;}
 .prodetail h2 { font-size: 26px;color: #333;text-align: right;margin-top: 27px;line-height: 34px;}
 /*环境展示*/
-
 .enviro-photo { position: relative;top:0;left: 0;overflow: hidden;height:593px;border-bottom: 2px solid #eeeeee;}
 .enviro-text{ position: absolute;top:110px;left: 0;}
 .enviro-text .line{ display: block;height: 4px;background: #333;width: 60px;margin: 40px 0 60px 0;}

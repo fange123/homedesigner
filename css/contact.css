@@ -3,9 +3,13 @@
 .who { position: relative;}
 .who > img[alt=who] { margin-top: 130px;}
 .who > img[alt=top] { margin-top: 130px;position: absolute;top:-45px;right: 0;}
+.who .c-tit { position: absolute;top: 170px;right: 0;width: 450px;}
 .who .photo { width: 408px;height: 129px;position: absolute;z-index: 999;top:477px;right: 78px;display: flex;justify-content: space-around;}
 .who .photo h2 { color:#333;font-size: 13px;line-height: 14px;text-align: center;margin-top: 20px;font-weight: bolder;}
 .who .photo img { cursor: pointer;}
+.c-tit h2 { font-size: 22px;line-height: 62px;color: #333;}
+.c-tit h2:after { content: "";display: block;border-bottom: 4px solid #333; width: 44px;}
+.c-tit p{ font-size: 14px;line-height: 20px;color: #666;width: 327px;margin-top: 57px;}
 /*联系我们*/
 .contactbg { background: url("../img/contactbg.png") no-repeat top left;position: relative;padding-top: 124px;}
 .contactbg img{ position: absolute;top:124px;left: 183px;}
@@ -16,3 +20,7 @@
 .address textarea{ width: 404px;height: 66px;border: 2px solid #655750;resize: none; margin-bottom: 48px;display: block;}
 .address button{ width: 90px;height: 36px;background: #655750;color: #fff;font-size: 14px;}
 .content {  border-bottom: 2px solid #eee;}
+.c-us { position: absolute;top:210px;left: 282px;}
+.c-us h2 { font-size: 22px;line-height: 62px;color: #333;}
+.c-us h2:after { content: "";display: block;border-bottom: 4px solid #333; width: 44px;}
+.c-us p{ font-size: 14px;line-height: 20px;color: #666;width: 327px;margin-top: 57px;}

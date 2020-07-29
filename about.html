@@ -9,7 +9,9 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/about.css">
+
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
@@ -22,7 +24,13 @@
 </div>
 <!--banner-->
 <div class="container-fluid aboutbg">
-    <img src="img/abouttext.png" alt="abouttext">
+    <img src="img/abouttext.png" alt="abouttext" class="about_first">
+    <div class="abouttext">
+        <h2 class="ex2">品牌介绍</h2>
+        <h3 class="desc">用心，打造每一件艺术品。</h3>
+        <p>做一个有品质、有艺术的家居品牌是Ibaotu的一生追求，是最核心的价值观。珍惜品牌的荣誉，用心为他们设计、生产出最优质的的
+            产品，并提供真诚的服务，做一个有品质、有气质、有艺术、受人喜欢爱戴尊敬的家居品牌。</p>
+    </div>
 </div>
 <!--导航条-->
 <nav id="navlist">
@@ -32,7 +40,7 @@
         <li class="nav-pro">
             <a href="product.html">产品</a>
             <ul class="nav-second" id="nav-second">
-                <li class="active1"><a href="#">沙发</a></li>
+                <li class="active1"><a href="product.html#ourproduct">沙发</a></li>
                 <li><a href="#">座椅</a></li>
                 <li><a href="#">床榻</a></li>
                 <li><a href="#">橱柜</a></li>
@@ -45,15 +53,20 @@
 </nav>
 <!--我们的设计师-->
 <div class="container ourdesigner text-center">
-    <div class="tit">
+    <div class="tit tit-slidertop">
         <h2>我们的设计师</h2>
-        <p>Our Designers</p>
+        <p >Our Designers</p>
     </div>
     <img src="img/designerbg.png" alt="designerbg">
     <img src="img/designertext.png" alt="designertext">
+    <div class="about-us">
+        <h2 class="ex2">我们能做什么？</h2>
+        <p>Kim Mee Hye在粗糙和精致的同时，创造了她梦寐以求的珠宝首饰。Kim Mee Hye从珠宝视觉中脱离出仅仅是身份的象征，专注于诚实，个性和折衷主义，回归醒目的形状和强有力的陈述。</p>
+    </div>
+
     <div class="point text-center">
-        <span><img src="img/despoin-left.png" alt="despoin"></span>
-        <span><img src="img/despointright.png" alt="despoin"></span>
+        <span class="leftbtn"></span>
+        <span class="rightbtn"></span>
     </div>
 
 </div>
@@ -94,6 +107,7 @@
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/textyle.js"></script>
 <script src="js/about.js"></script>
 
 </html>

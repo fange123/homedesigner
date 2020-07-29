@@ -15,7 +15,7 @@
     font-family: heiti;
     src:url("../fonts/simhei.ttf");
 }
-body { font-family: heiti;}
+body { font-family: heiti;text-shadow: none;}
 .more button { letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
 .more button:hover { background: #fff;color: #655750;}
 .more { margin:55px auto 80px;text-align: center;width: 146px;height: 35px;}
