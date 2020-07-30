@@ -1,0 +1,295 @@
+/* 分页样式一 */
+.pagination-outer{ text-align: center; }
+.pagination{
+    font-family: 'Allerta Stencil', sans-serif;
+    display: inline-flex;
+    position: relative;
+}
+.pagination li a.page-link{
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    line-height: 28px;
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 0 8px;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+.pagination li.active a.page-link,
+.pagination li a.page-link:hover,
+.pagination li.active a.page-link:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.pagination li a.page-link:before,
+.pagination li a.page-link:after{
+    content:'';
+    background: linear-gradient(225deg, #7a6b63, #655750);
+    height: 100%;
+    width: 100%;
+    /*border: 3px solid #fff;*/
+    /*box-shadow: 0 0 3px #000;*/
+    border-radius: 50%;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transition: all 0.3s ease-in;
+}
+.pagination li a.page-link:hover:before,
+.pagination li.active a.page-link:before{
+    border-radius: 50% 0 50% 50%;
+}
+.pagination li a.page-link:after{
+    background: #fff;
+    height: 5px;
+    width: 5px;
+    border: none;
+    box-shadow: 0 0 0 transparent;
+    opacity: 0;
+    transform: translateX(-50%) translateY(0) rotate(0);
+    top: auto;
+    bottom: 0;
+}
+.pagination li a.page-link:hover:after,
+.pagination li.active a.page-link:after{
+    opacity: 1;
+    bottom: 85%;
+}
+.pagination li:first-child a.page-link:before{
+    transform: translateX(-50%) translateY(-50%) rotate(-135deg);
+}
+.pagination li:first-child a.page-link:hover:before{ border-radius: 50% 0 50% 50%; }
+.pagination li:first-child a.page-link:after{
+    transform: translateX(0) translateY(-50%);
+    top: 50%;
+    bottom:auto;
+    left: auto;
+    right: 0;
+}
+.pagination li:first-child a.page-link:hover:after{ right: 80%; }
+.pagination li:last-child a.page-link:before{
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.pagination li:last-child a.page-link:hover:before{ border-radius: 50% 0 50% 50%; }
+.pagination li:last-child a.page-link:after{
+    transform: translateX(0) translateY(-50%);
+    bottom:auto;
+    top: 50%;
+    left: 0;
+}
+.pagination li:last-child a.page-link:hover:after{ left: 80%; }
+@media only screen and (max-width: 480px){
+    .pagination{ display: block; }
+
+    .pagination li{
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}
+/*详情页按钮样式*/
+.btn{
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding-left: 60px;
+    position: relative;
+    transform: translateZ(0px);
+    transition: all 0.5s ease 0s;
+}
+.btn:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: 100% 50% 0;
+    transition: all 0.5s ease-out 0s;
+}
+.btn:hover:after{
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+.btn span{
+    width: 40px;
+    height: 100%;
+    line-height: 40px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.3s linear 0s;
+}
+.btn span:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: -6px;
+    bottom: 0;
+    transform: rotate(45deg);
+    transition: all 0.3s linear 0s;
+}
+.btn.btn-sm{
+    padding-left: 40px;
+}
+.btn.btn-sm span{
+    width: 27px;
+    line-height: 27px;
+}
+.btn.btn-sm span:after{
+    width: 8px;
+    height: 8px;
+    right: -5px;
+}
+.btn.btn-xs{
+    padding-left: 30px;
+}
+.btn.btn-xs span{
+    width: 20px;
+    line-height: 20px;
+}
+.btn.btn-xs span:after{
+    width: 7px;
+    height: 7px;
+    right: -4px;
+}
+.btn.red{
+    border: 1px solid #655750;
+    background: #655750;
+}
+.btn.red:hover,
+.btn.red span{
+    color: #655750;
+}
+.btn.red:hover span,
+.btn.red:hover span:after{
+    background: #655750;
+}
+.btn.coffee{
+    border: 1px solid #655750;
+    background: #655750;
+}
+.btn.coffee:hover,
+.btn.coffee span{
+    color: #655750;
+}
+.btn.coffee:hover span,
+.btn.coffee:hover span:after{
+    background: #655750;
+}
+.btn.blue{
+    border: 1px solid #3bb4e5;
+    background: #3bb4e5;
+}
+.btn.blue:hover,
+.btn.blue span{
+    color: #3bb4e5;
+}
+.btn.blue:hover span,
+.btn.blue:hover span:after{
+    background: #3bb4e5;
+}
+.btn.orange{
+    border: 1px solid #ee955b;
+    background: #ee955b;
+}
+.btn.orange:hover,
+.btn.orange span{
+    color: #ee955b;
+}
+.btn.orange:hover span,
+.btn.orange:hover span:after{
+    background: #ee955b;
+}
+.btn.green{
+    border: 1px solid #79d799;
+    background: #79d799;
+}
+.btn.green:hover,
+.btn.green span{
+    color: #79d799;
+}
+.btn.green:hover span,
+.btn.green:hover span:after{
+    background: #79d799;
+}
+.btn:hover span{
+    color: #fff;
+}
+@media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 20px; }
+}
+
+
+/*产品页按钮*/
+.effect.effect-1 {
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+.effect.effect-1:before {
+    content: "-->";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 40px;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+.effect.effect-1:hover {
+    text-indent: -30px;
+}
+
+.effect.effect-1:hover:before {
+    opacity: 1;
+    text-indent: 0;
+}
+/*首页点赞*/
+.heart {
+    background: url(../img/web_heart_animation.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    left:-18px;
+    top:21px;
+    background-size:1450px; //实际背景图片尺寸2900px
+}
+.heart:hover{
+    background-position: right; //显示最后一个红心帧
+}
+.likeCount{
+    margin-top: 13px;
+    margin-left: 28px;
+    font-size: 16px;
+    color: #999999
+}

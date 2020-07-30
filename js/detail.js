@@ -20,7 +20,7 @@ $("#carousel-example-generic").on("slide.bs.carousel",function (obj) {
             <span class="money">${banner01.buy.money}</span>
             <div class="span">颜色组成<span></span><span></span><span></span><span></span><span></span></div>
             <p class="text">${banner01.buy.contents}</p>
-            <div class="buynow fl"><button>购买</button></div>`);
+           <div class="buynow fl"><a href="#" class="btn btn-sm coffee"><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</a></div>`);
 
         }else if(index == 1){
             var banner02 = data.detail[1].banner02[0];
@@ -29,7 +29,7 @@ $("#carousel-example-generic").on("slide.bs.carousel",function (obj) {
             <span class="money">${banner02.buy.money}</span>
             <div class="span">颜色组成<span style="background-color: #cbcbcb"></span><span style="background-color: #d1d0cc"></span></div>
             <p class="text">${banner02.buy.contents}</p>
-            <div class="buynow fl"><button>购买</button></div>`);
+            <div class="buynow fl"><a href="#" class="btn btn-sm coffee"><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</a></div>`);
         }else if(index == 2){
             var banner03 = data.detail[2].banner03[0];
             $(".delbuy").html(`
@@ -37,7 +37,7 @@ $("#carousel-example-generic").on("slide.bs.carousel",function (obj) {
             <span class="money">${banner03.buy.money}</span>
             <div class="span">颜色组成<span style="background-color: #e2dcc6"></span><span style="background-color: #c9c7b8"></span><span style="background-color: #c8cac7"></span></div>
             <p class="text">${banner03.buy.contents}</p>
-            <div class="buynow fl"><button>购买</button></div>`);
+            <div class="buynow fl"><a href="#" class="btn btn-sm coffee"><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</a></div>`);
         }
     },"json");
 });

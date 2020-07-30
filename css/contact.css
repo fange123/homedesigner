@@ -1,7 +1,9 @@
 /*我们是谁*/
-.container-fluid{ background: #eee;}
+.container-fluid{ background: #eee;cursor: pointer;
+    overflow: hidden;}
 .who { position: relative;}
-.who > img[alt=who] { margin-top: 130px;}
+.who > img[alt=who] { margin-top: 130px;transition: transform 1s;}
+.who > img[alt=who]:hover { transform: scale(1.1);}
 .who > img[alt=top] { margin-top: 130px;position: absolute;top:-45px;right: 0;}
 .who .c-tit { position: absolute;top: 170px;right: 0;width: 450px;}
 .who .photo { width: 408px;height: 129px;position: absolute;z-index: 999;top:477px;right: 78px;display: flex;justify-content: space-around;}
@@ -10,6 +12,7 @@
 .c-tit h2 { font-size: 22px;line-height: 62px;color: #333;}
 .c-tit h2:after { content: "";display: block;border-bottom: 4px solid #333; width: 44px;}
 .c-tit p{ font-size: 14px;line-height: 20px;color: #666;width: 327px;margin-top: 57px;}
+
 /*联系我们*/
 .contactbg { background: url("../img/contactbg.png") no-repeat top left;position: relative;padding-top: 124px;}
 .contactbg img{ position: absolute;top:124px;left: 183px;}
@@ -24,3 +27,5 @@
 .c-us h2 { font-size: 22px;line-height: 62px;color: #333;}
 .c-us h2:after { content: "";display: block;border-bottom: 4px solid #333; width: 44px;}
 .c-us p{ font-size: 14px;line-height: 20px;color: #666;width: 327px;margin-top: 57px;}
+.leaveword button:hover { text-indent: 15px; letter-spacing: 15px;border:1px solid #655750;background: #fff;color: #655750;font-weight: bolder;transition: 0.65s ease-out;}
+.leaveword button { font-size: 14px;letter-spacing: 2px;transition: 0.65s ease-out;}

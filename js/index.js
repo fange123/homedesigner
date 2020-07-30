@@ -82,6 +82,7 @@ $(".newproduct .more button").click(function () {
 });
 /*公司新闻*/
 /**/
+
 $.getJSON("home.json",{},function (data) {
     for (var i = 0; i < 3; i++) {
         var arr = data.index[1].companynews[i];
@@ -90,7 +91,11 @@ $.getJSON("home.json",{},function (data) {
             <span>${arr.time}</span>
             <h3>${arr.tit}</h3>
             <p>${arr.contents}</p>
-            <button class="newmore"></button>
+            <div class="feed zan" id="feed1">
+            <p class="love">收藏</p>
+            <div class="heart" id="like3" rel="like"></div>
+            <div class="likeCount" id="likeCount3">24</div>
+            </div>    
         </div>`;
         $(".comnews").append(html);
     }
@@ -105,7 +110,11 @@ $(".companynews .more button").click(function () {
             <span>${arr.time}</span>
             <h3>${arr.tit}</h3>
             <p>${arr.contents}</p>
-            <button class="newmore"></button>
+            <div class="feed zan" id='feed + "+ i + 1 +"'>
+            <p class="love">收藏</p>
+            <div class="heart" id="like3" rel="like"></div>
+            <div class="likeCount" id="likeCount3">24</div>
+            </div> 
         </div>`;
             $(".comnews").append(html);
         }
@@ -159,7 +168,27 @@ $(window).scroll(function () {
 
 
 });
+/*点赞*/
+$('body').on("click",'.heart',function()
+{
+    var A=$(this).attr("id");
+    var B=A.split("like");
+    var messageID=B[1];
+    var C=parseInt($("#likeCount"+messageID).html());
+    $(this).css("background-position","");
+    var D=$(this).attr("rel");
+    if(D === 'like')
+    {
+        $("#likeCount"+messageID).html(C+1);
+        $(this).addClass("heartAnimation").attr("rel","unlike");
+    }
+    else
+    {
+        $("#likeCount"+messageID).html(C-1);
+        $(this).removeClass("heartAnimation").attr("rel","like");
+        $(this).css("background-position","left");
+    }
 
-
+});
 
 

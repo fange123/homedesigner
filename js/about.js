@@ -29,10 +29,9 @@ $(window).scroll(function () {
             easing : 'swing',
             callback : function(){
                 $(this).css({
-                    color : 'black',
+                    color : '#000',
                     transition : '1s'
                 });
-
             }
         });
         $(".about-us p").fadeIn(3000);
@@ -52,7 +51,6 @@ $(".leftbtn").click(function () {
         background:"url('img/despoin-left01.png')"
     });
 
-
 });
 $(".rightbtn").click(function () {
     $(".leftbtn").css({
@@ -61,6 +59,5 @@ $(".rightbtn").click(function () {
     $(".rightbtn").css({
         background:"url(img/despointright.png)"
     });
-
 
 });

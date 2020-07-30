@@ -323,3 +323,28 @@
     }
 }
 
+/*我们的产品*/
+
+
+/*首页点赞*/
+@-webkit-keyframes heartBlast {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+@keyframes heartBlast {
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.heartAnimation {
+    -webkit-animation-name: heartBlast; //webkit内核浏览器
+animation-name: heartBlast;
+    -webkit-animation-duration: .8s;
+    animation-duration: .8s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-timing-function: steps(28); //共28个背景图片帧
+animation-timing-function: steps(28);
+    background-position: right;
+}

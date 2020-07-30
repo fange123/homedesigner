@@ -2,9 +2,14 @@
 .select { display:flex;justify-content:space-between;padding:45px 85px;width: 1000px;height: 160px;position: absolute;top:515px;left: 50%;margin-left: -500px;background: #fff;box-shadow: 0 0 12px #ccc;z-index: 33;}
 .sel { text-align: center;background: url("../img/pro-line.png") no-repeat 0 10px;flex: 0 0 138px;}
 .sel h3 { line-height: 34px;font-size: 14px;color: #333;}
+.sel a { display: inline-block;width: 38px;height: 37px;overflow: hidden;}
+.sel:hover img:first-child { display: none;transition: 1s ease-out;}
+/*.sel:hover img[alt="1"]{ margin-left: 14px;}*/
+.sel:hover h3 { color: #2a5c73;font-weight: bolder;}
+.sel a img{ margin-bottom: 10px;}
 .linebg { background: url("../img/pro-line.png") no-repeat 0 10px,url("../img/pro-line.png") no-repeat right 10px;}
 .p-tit { width: 896px;text-align: center;margin: 193px auto 0;}
-.p-tit h2 { color: #fff;font-size: 56px;font-family: Arial 微软雅黑;line-height: 120px;}
+.p-tit h2 { color: #333;font-size: 56px;font-family: Arial 微软雅黑;line-height: 120px;}
 .p-tit p { color: #fff;font-size: 18px;line-height: 26px;margin:67px auto 0;width: 500px;font-family: 微软雅黑;}
 .p-tit h2:after{ content: "";display: block;border-bottom: 5px solid #fff;width: 80px;margin: auto;}
 /*推荐*/
@@ -24,26 +29,26 @@
 .recommend .tit p{ font-size: 18px;}
 .money { margin-top: 24px;color: #655750;font-size: 16px;float: left;font-weight: bolder;}
 .buynow { width: 150px;margin-top: 60px;}
-.buynow button{ letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
+/*.buynow button{ letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}*/
 .photoslide { width: 490px;height: 365px;margin: 0;padding: 0;}
 .photoslide ol .active { background: #655750;width: 8px;height: 8px;margin: 0;}
 .photoslide ol li{ border: none;background: #ccc;width: 8px;height: 8px;margin: 0;}
 .recommend .moneyright { margin-top: 24px;color: #655750;font-size: 16px;float:right;font-weight: bolder;width: 100%;}
-.more1 button { letter-spacing:3px;width: 146px;height: 35px;background: #655750;color: #fff;font-size: 18px;font-weight: bolder;}
 .more1 { margin:14px auto 80px;text-align: center;}
-/*我们的产品*/
+.buynow .effect { height: 35px;font-weight: bolder;letter-spacing:3px;display: inline-block;position: relative;color: #FFF;text-transform: capitalize;font-size: 18px;padding: 10px 0;width: 146px; overflow: hidden; background: #655750;text-align: center;}
+.buynow .effect:hover { background: #655750}
+    /*我们的产品*/
 .ourproduct { width: 1116px;margin: 0 auto 90px;border-bottom: 2px solid #eeeeee;padding: 0 60px;}
 .tit01 { margin:0 auto 60px;}
 .proline { display: flex;justify-content: space-between;margin:0 auto 80px;width: 900px;}
 .proline h3 { text-align:center;font-size: 13px;color: #999;line-height: 22px;margin-top:20px;font-weight: bolder;letter-spacing: 2px;text-indent: 10px;}
 .proline p { font-size: 15px;color: #333;line-height: 22px;text-align: center;}
 .proline>div{ flex: 0 0 224px;}
-.proline>div>div{ position: relative;height: 164px;}
+.proline>div>div{ position: relative;height: 164px;overflow: hidden;}
 .proline img{ position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
-.page { height: 90px;width: 454px;margin: auto;}
-.page span{ display: inline-block;}
-.page .pagelist { display: inline-block;width: 368px;margin:2px 18px;}
-.page .pagelist li{ float: left;margin-right: 22px;cursor: pointer;color: #666;font-size: 16px;}
-.page .pagelist .mr_0 { margin: 0;}
-.page .pagelist .dot { letter-spacing: 1px;cursor: none;}
-.page .pagelist .page-first { margin-left: 25px;}
+.proline>div:hover .blur{ opacity: 1;transition: 1s ease-in-out;}
+.proline>div:hover img{ transform: scale(1.25);transition: 1s ease-in-out;}
+.blur { opacity: 0;width: 224px;height: 164px;position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.65);color: #fff;}
+.blur h2{ line-height: 50px;font-size: 20px;height: 50px;}
+.blur span { background: #c1150a;width: 40px;height: 40px;display: inline-block;font-size: 14px;margin:10px -168px 0 0;border-radius: 50%;padding:13px 3px 0 0;}
+.blur button { background: #7a6b63;width: 80px;height: 25px;font-size: 16px;}
