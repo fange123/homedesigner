@@ -1,3 +1,12 @@
+$.get("home.json",{},function (data) {
+    var $data1 = data.about[1];
+    $(".about-us").html(`
+        <h2 class="ex2">${$data1.ourdesinger[0].title}</h2>
+        <p>${$data1.ourdesinger[0].contents}</p>
+    `);
+
+},"json");
+
 $('.abouttext .ex2').textyle({
     duration : 400,
     delay : 100,

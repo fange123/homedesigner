@@ -21,9 +21,12 @@
 .recommend h3{ font-size: 26px;color: #333;letter-spacing: 5px;line-height: 50px;}
 .recommend h6{ line-height: 28px;font-size: 16px;color: #666;}
 .recommend span{ width: 14px;height: 14px;display: inline-block;margin-right: 10px;}
-.recommend span:nth-child(1){ background: #d3cfcb;}
-.recommend span:nth-child(2){ background: #aaa5a5;}
-.recommend span:nth-child(3){ background: #424040;}
+.recommend .first span:nth-child(1){ background: #d3cfcb;}
+.recommend .first span:nth-child(2){ background: #aaa5a5;}
+.recommend .first span:nth-child(3){ background: #424040;}
+.recommend .second span:nth-child(1){ background: #dfd0ae;}
+.recommend .second span:nth-child(2){ background: #e7bf3a;}
+.recommend .second span:nth-child(3){ background: #a55e3d;}
 .span { padding: 25px 0 38px;}
 .recommend p{ line-height: 18px;font-size: 13px;color: #999;}
 .recommend .tit p{ font-size: 18px;}
@@ -38,6 +41,12 @@
 .buynow .effect { height: 35px;font-weight: bolder;letter-spacing:3px;display: inline-block;position: relative;color: #FFF;text-transform: capitalize;font-size: 18px;padding: 10px 0;width: 146px; overflow: hidden; background: #655750;text-align: center;}
 .buynow .effect:hover { background: #655750}
     /*我们的产品*/
+.pro-tit01 h2 { transform: translateX(-90%);}
+.pro-h2-slider { transition: 0.85s ease-out;transform: translateX(0) !important;}
+.pro-p-slider { transition: 0.85s ease-out;transform: translateX(0) !important;}
+.pro-tit01 p{ transform: translateX(90%);}
+.retit h2 { transform: translateX(-90%);}
+.retit p { transform: translateX(90%);}
 .ourproduct { width: 1116px;margin: 0 auto 90px;border-bottom: 2px solid #eeeeee;padding: 0 60px;}
 .tit01 { margin:0 auto 60px;}
 .proline { display: flex;justify-content: space-between;margin:0 auto 80px;width: 900px;}
@@ -46,7 +55,7 @@
 .proline>div{ flex: 0 0 224px;}
 .proline>div>div{ position: relative;height: 164px;overflow: hidden;}
 .proline img{ position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
-.proline>div:hover .blur{ opacity: 1;transition: 1s ease-in-out;}
+.proline>div:hover .blur{ opacity: 1;transition: 1s ease-in-out;cursor: default;}
 .proline>div:hover img{ transform: scale(1.25);transition: 1s ease-in-out;}
 .blur { opacity: 0;width: 224px;height: 164px;position: absolute;top: 0;left: 0;background: rgba(0,0,0,0.65);color: #fff;}
 .blur h2{ line-height: 50px;font-size: 20px;height: 50px;}

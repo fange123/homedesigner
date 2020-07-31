@@ -14,23 +14,36 @@
 .delbuy .span span:nth-child(3){ background: #638d9c;}
 .delbuy .span span:nth-child(4){ background: #a1b264;}
 .delbuy .span span:nth-child(5){ background: #feb135;}
-/*.buynow button{ width:86px;height: 28px;font-size: 16px;letter-spacing:3px;background: #655750;color: #fff;font-weight: bolder;}*/
-/*.buynow button:hover{ background: #9d0000;color: #fff;}*/
 .carousel-indicators { bottom: 50px;}
 #carousel-example-generic .item img { height: 667px;}
 /*产品详情*/
 .prodetail { width: 1005px;margin: auto;overflow: hidden;}
+.pro-detail .title .fl { transform: translateX(150%)}
+.pro-detail .title .fr { transform: translateX(-150%)}
+.retitl-slider { transition: 0.85s ease-out;transform: translateX(0)!important;}
 .title { height: 100px;margin-top: 47px;line-height: 100px;font-size: 24px;color: #333;overflow: hidden;}
-.review { width: 100%;}
+.review { width: 100%; opacity: 0;}
+.reviewshow { opacity: 1;transition: 0.85s}
 .detail-photo { position: relative;}
-.reviewtop { position: absolute;right: 0;bottom: 0;}
+.reviewtop { position: absolute;left: 0;bottom: 0;}
+.reviewslider { left: 515px;transition: 1s ease-out;bottom: 0;}
 .prodetail h2 { font-size: 26px;color: #333;text-align: right;margin-top: 27px;line-height: 34px;}
 /*环境展示*/
+.enviro-tit .title .fl { transform: translateX(100%);}
+.enviro-tit .title .fr { transform: translateX(-100%);}
 .enviro-photo { position: relative;top:0;left: 0;overflow: hidden;height:593px;border-bottom: 2px solid #eeeeee;}
-.enviro-text{ position: absolute;top:110px;left: 0;}
-.enviro-text .line{ display: block;height: 4px;background: #333;width: 60px;margin: 40px 0 60px 0;}
-.enviro-text p{ font-size:18px;color: #333;line-height: 34px;text-align: left;}
-.enviro-text span{ font-size:14px;color: #666;}
+.enviro-text { position: absolute;top:110px;left: 0;}
+.enviro-text * { transform: translateX(-100%);}
+.enviro-text01 img { transform: translateX(0)!important;transition: 0.6s ease-out;}
+.enviro-text01 .line { transform: translateX(0);transition: 0.6s 0.1s ease-out;}
+.enviro-text01 .p1 { transform: translateX(0);transition: 0.6s 0.2s ease-out;}
+.enviro-text01 .p2 { transform: translateX(0);transition: 0.6s 0.3s ease-out;}
+.enviro-text01 .p3 { transform: translateX(0);transition: 0.6s 0.4s ease-out;}
+.enviro-text01 .tit { transform: translateX(0);transition: 0.8s 0.5s ease-out;}
+.enviro-text .line { display: block;height: 4px;background: #333;width: 60px;margin: 40px 0 60px 0;}
+.enviro-text p { font-size:18px;color: #333;line-height: 34px;text-align: left;}
+.enviro-text span { font-size:14px;color: #666;}
 .enviro-text .tit { width: 660px;padding:10px 60px 0 0;line-height: 22px;background: #fff;margin-top: 30px;}
+.evrophoto-slider { margin-left:345px;transition: 1s ease-out;}
 
 

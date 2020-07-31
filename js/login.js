@@ -92,3 +92,29 @@ $("#password").keyup(function () {
 
 });
 
+$(".login").click(function (event) {
+   var text = $("#text");
+   var password = $("#password");
+   var span = $("#span");
+   var span1 = $("#span1");
+   if(text.val() === ""){
+      span.html("用户名不能为空");
+   }else if(password.val() === ""){
+      span1.html("密码不能为空");
+   }else if(text.val() === "" && password.val() === ""){
+      span.html("用户名不能为空");
+      span1.html("密码不能为空");
+   }else{
+      span.html("");
+      span1.html("");
+      text.val("");
+      password.val("");
+
+   }
+   event.preventDefault();
+
+});
+
+
+
+

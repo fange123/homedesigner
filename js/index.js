@@ -80,6 +80,18 @@ $(".newproduct .more button").click(function () {
         flag += 4;
     },"json");
 });
+/*时间*/
+function time() {
+    var data = new Date();
+    var year = data.getFullYear();  //获取年
+    var month = data.getMonth() + 1;    //获取月
+    var day = data.getDate(); //获取日
+    var hours = data.getHours();
+    var minutes = data.getMinutes();
+    var time = year + "/" + month + "/" + day;
+   return time;
+}
+
 /*公司新闻*/
 /**/
 
@@ -88,13 +100,13 @@ $.getJSON("home.json",{},function (data) {
         var arr = data.index[1].companynews[i];
         var html = ``;
         html += `<div class="news">
-            <span>${arr.time}</span>
+            <span>${time()}</span>
             <h3>${arr.tit}</h3>
             <p>${arr.contents}</p>
-            <div class="feed zan" id="feed1">
-            <p class="love">收藏</p>
-            <div class="heart" id="like3" rel="like"></div>
-            <div class="likeCount" id="likeCount3">24</div>
+            <div class="feed zan" id="${"feed" + i}">
+            <p class="love">查看详情>></p>
+            <div class="heart" id="${"like" + i}" rel="like"></div>
+            <div class="likeCount" id="${"likeCount" + i}">${12 * i + 5}</div>
             </div>    
         </div>`;
         $(".comnews").append(html);
@@ -107,13 +119,13 @@ $(".companynews .more button").click(function () {
             var arr = data.index[1].companynews[i];
             var html = ``;
             html += `<div class="news">
-            <span>${arr.time}</span>
+            <span>${time()}</span>
             <h3>${arr.tit}</h3>
             <p>${arr.contents}</p>
-            <div class="feed zan" id='feed + "+ i + 1 +"'>
-            <p class="love">收藏</p>
-            <div class="heart" id="like3" rel="like"></div>
-            <div class="likeCount" id="likeCount3">24</div>
+            <div class="feed zan" id="${"feed" + i}">
+            <p class="love">查看详情>></p>
+            <div class="heart" id="${"like" + i}" rel="like"></div>
+            <div class="likeCount" id="${"likeCount" + i}">${12 * i + 5}</div>
             </div> 
         </div>`;
             $(".comnews").append(html);
@@ -169,8 +181,8 @@ $(window).scroll(function () {
 
 });
 /*点赞*/
-$('body').on("click",'.heart',function()
-{
+
+$('body').on("click",'.heart',function() {
     var A=$(this).attr("id");
     var B=A.split("like");
     var messageID=B[1];
@@ -190,5 +202,7 @@ $('body').on("click",'.heart',function()
     }
 
 });
+
+
 
 

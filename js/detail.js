@@ -4,7 +4,7 @@
     $("#carousel-example-generic .item:eq("+ value+")").addClass("active");
     $("#carousel-example-generic .item:eq("+ value+")").siblings().removeClass("active");
     $(".slidenum li:eq("+ value +")").addClass("active");
-    $(".slidenum li:eq("+ value +")").siblings().removeClass("active");;
+    $(".slidenum li:eq("+ value +")").siblings().removeClass("active");
 
 
 /*轮播图*/
@@ -40,4 +40,52 @@ $("#carousel-example-generic").on("slide.bs.carousel",function (obj) {
             <div class="buynow fl"><a href="#" class="btn btn-sm coffee"><span class="glyphicon glyphicon-shopping-cart"></span>加入购物车</a></div>`);
         }
     },"json");
+});
+/*滚动条事件*/
+$(window).scroll(function () {
+    var scrollTop = parseInt($(window).scrollTop());
+    var offsetTop01 = parseInt($(".prodetail").offset().top);
+    var offsetTop = parseInt($(".enviro-tit").offset().top);
+    var num = offsetTop - scrollTop;
+    var num1 = offsetTop01 - scrollTop;
+    console.log(num);
+    if(num1 < 630){
+        $(".pro-detail .title .fl").addClass("retitl-slider");
+        $(".pro-detail .title .fr").addClass("retitl-slider");
+
+    }else {
+        $(".pro-detail .title .fl").removeClass("retitl-slider");
+        $(".pro-detail .title .fr").removeClass("retitl-slider");
+    }
+    if(num1 < 367){
+        $(".review").addClass("reviewshow");
+    }else {
+        $(".review").removeClass("reviewshow");
+    }
+    if(num1 < 180){
+        $(".reviewtop").addClass("reviewslider");
+
+    }else {
+        $(".reviewtop").removeClass("reviewslider");
+    }
+
+    if(num < 650){
+        $(".enviro-tit .title .fl").addClass("retitl-slider");
+        $(".enviro-tit .title .fr").addClass("retitl-slider");
+    }else {
+        $(".enviro-tit .title .fl").removeClass("retitl-slider");
+        $(".enviro-tit .title .fr").removeClass("retitl-slider");
+    }
+
+    if(num < 280){
+        $(".enviro-photo > img").addClass("evrophoto-slider");
+    }else {
+        $(".enviro-photo > img").removeClass("evrophoto-slider");
+    }
+    if(num < 167){
+        $(".enviro-text").addClass("enviro-text01");
+    }else {
+        $(".enviro-text").removeClass("enviro-text01");
+    }
+
 });

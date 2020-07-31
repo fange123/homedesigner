@@ -6,7 +6,7 @@
 .loginBtn button:nth-child(2){ width: 120px;height: 48px;background: #655750;color: #fff;}
 .loginBtn h2{ font-size: 32px;color: #655750;display: inline-block;margin-left: 67px;}
 .loginBtn h2{ font-size: 32px;color: #655750;display: inline-block;margin-left: 67px;}
-.form { width: 700px;height: 211px;margin: 90px 0 0 687px;font-size: 20px;}
+.form { width: 700px;height: 211px;margin: 90px 0 0 687px;font-size: 18px;}
 .form input[type=text] { width:404px;height: 37px;border: 1px solid #655750;margin-bottom: 28px;}
 .form input[type=password] { width:404px;height: 37px;border: 1px solid #655750;margin-bottom: 28px;}
 .form input[type=checkbox] { width:16px;height: 16px;border: 1px solid #655750;margin-right: 12px;}

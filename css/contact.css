@@ -20,7 +20,7 @@
 .contactbg .address p{ line-height: 57px;color: #333;font-size: 24px;}
 .address span{ color: #666;font-size: 20px;}
 .address .leaveword p { line-height: 50px;color: #333;font-size: 16px;}
-.address textarea{ width: 404px;height: 66px;border: 2px solid #655750;resize: none; margin-bottom: 48px;display: block;}
+.address textarea{ font-size:16px;width: 404px;height: 66px;border: 2px solid #655750;resize: none; margin-bottom: 48px;display: block;}
 .address button{ width: 90px;height: 36px;background: #655750;color: #fff;font-size: 14px;}
 .content {  border-bottom: 2px solid #eee;}
 .c-us { position: absolute;top:210px;left: 282px;}

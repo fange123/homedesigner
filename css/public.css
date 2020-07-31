@@ -46,11 +46,11 @@ nav .nav-second .active1:after { content: "";border-bottom: 1px solid #000;displ
 /*底部*/
 .footer { margin-top: 64px;}
 .footer { width: 1000px;padding-bottom: 74px;}
-.footer h2 { font-size: 18px;line-height: 48px;padding-left: 14px;font-weight: bolder;letter-spacing: 5px;}
-.footer h2 a{ color: #666;}
-.footer ul li { font-size: 13px;height: 32px;line-height: 32px;font-weight: bolder;}
-.footer ul li a{  color: #999;letter-spacing: 3px;}
+.footer h2 { color: #666;text-indent:5px;font-size: 18px;line-height: 48px;padding-left: 14px;font-weight: bolder;letter-spacing: 5px;}
+.footer ul li { font-size: 13px;height: 32px;line-height: 32px;font-weight: bolder;padding-left: 5px;}
+.footer ul:nth-child(2) li { padding-left: 8px;}
+.footer ul li a{ text-indent: 3px; color: #999;letter-spacing: 3px;}
 .footer .pd_0 { padding: 0;}
 .footer .submit button{ width: 121px;float: left;}
 .footer .submit { margin-top: 24px;margin-left:0;}
-.input { width:314px;border: 2px solid #655750;padding: 12px 0 12px 14px;color:#655750;font-size: 18px;letter-spacing: 2px;font-weight: bolder;margin-top: 20px;}
+.input { text-indent:2px;width:314px;border: 2px solid #655750;padding: 12px 0 12px 14px;color:#655750;font-size: 18px;letter-spacing: 2px;font-weight: bolder;margin-top: 20px;}

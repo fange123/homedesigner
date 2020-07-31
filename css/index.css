@@ -63,5 +63,5 @@
 .mr_0 { margin-right: 0;}
 .newmore { width: 25px;height: 25px;background: url("../img/more.png") no-repeat;margin:25px auto 36px;}
 .zan { position: relative;}
-.love { margin-top: 15px; text-align: center; line-height: 25px; width: 50px;height: 25px;border: 1px solid #ccc;border-radius: 3px;color: #fff;font-size: 14px;}
+.love { cursor: pointer; margin-top: 15px; text-align: center; line-height: 25px; width: 100px;height: 25px;border: 1px solid #ccc;border-radius: 3px;color: #fff;font-size: 14px;}
 .love:hover { background: #b10000;color: #fff;}
